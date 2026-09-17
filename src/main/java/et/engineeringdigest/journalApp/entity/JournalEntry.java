@@ -13,8 +13,10 @@ public class JournalEntry {
 
     @Id
     private ObjectId id;
+
     private String title;
     private String content;
     private String userName;
     private LocalDateTime date;
+    private Sentiment sentiment;
 }
