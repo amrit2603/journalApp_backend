@@ -11,9 +11,9 @@
 	<groupId>et.engineeringdigest</groupId>
 	<artifactId>journalApp</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name/>
-	<description/>
-	<url/>
+	<name>Journal Backend</name>
+	<description>Local authenticated journal API with MongoDB ownership checks</description>
+	<url>https://github.com/amrit2603/journalApp_backend</url>
 	<licenses>
 		<license/>
 	</licenses>
@@ -30,6 +30,11 @@
 		<java.version>17</java.version>
 	</properties>
 	<dependencies>
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-test</artifactId>
+			<scope>test</scope>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-webmvc</artifactId>
